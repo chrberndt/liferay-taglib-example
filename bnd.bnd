@@ -1,0 +1,9 @@
+Bundle-Name: liferay-taglib-example
+Bundle-SymbolicName: com.chberndt.liferay.taglib.example
+Bundle-Version: 1.0.0
+Provide-Capability:\
+	osgi.extender;\
+		osgi.extender="jsp.taglib";\
+		uri="http://chberndt.com/tld/example";\
+		version:Version="${Bundle-Version}"
+Web-ContextPath: /example-taglib
